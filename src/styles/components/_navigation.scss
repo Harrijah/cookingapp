@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    flex-direction: column;
+
+    ul{
+        display: flex;
+        padding: 10px;
+        background-color: antiquewhite;
+
+        li a{
+            padding: 10px;
+            text-decoration: none;
+            transition: 1s ease;
+
+            &:hover{
+                background: black;
+                color: beige;
+            }
+        }
+        .nav-active{
+            background: black;
+            color: beige;
+        }
+    }
+
+}
